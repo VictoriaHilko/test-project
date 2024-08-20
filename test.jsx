@@ -95,4 +95,5 @@ const DailyNormaModal: = ({ setVisible, onWaterAmountSave }) => {
       </div>
 
   );
+
   }
