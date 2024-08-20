@@ -30,6 +30,7 @@ export class AutoplayButton extends DisposableComponent {
   override componentDidMount(): void {
     this.__.rxSubscribe(mobxWhenever$(
         () => this._nlAutoplayStore.hasBetForAutoplay),
+        () => console.log('sfkjh'),
       () => this._tooltip.text && this._tooltip.hide()
     );
   }

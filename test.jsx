@@ -1,5 +1,5 @@
 
-const DailyNormaModal: = ({ setVisible, onWaterAmountSave }) => {
+const DailyNormaModal = ({ setVisible, onWaterAmountSave }) => {
   const { t } = useTranslation();
 
 
